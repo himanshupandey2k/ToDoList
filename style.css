@@ -1,0 +1,87 @@
+body {
+    background-color: mediumturquoise;
+    font-family: Verdana;
+    text-align: center;
+    font-size: large;
+}
+
+.form {
+    width: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.title {
+    color: darkslategray;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 90%;
+    margin: 0;
+    padding: 10px 20px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.search_bar {
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 27px;
+    background-color: lavender;
+    display: flex;
+}
+
+.button {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #4BB543;
+    border-radius: 50%;
+    color: white;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.success {
+    color: #4BB543;
+}
+
+.danger {
+    color: red;
+}
+
+.item {
+    text-align: left;
+    background-color: rgb(148, 170, 192);
+    border: 2px solid slategray;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.fa {
+    float: right;
+}
