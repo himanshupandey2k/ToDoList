@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Tasks Reminder</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-    <div class="form">
-        <h1 class="title">ToDo List</h1>
-        <div class="search_bar">
-            <input type="text" placeholder="Add your task">
-            <div class="button">+</div>
-        </div>
-        
-        <div class="message success">
-            Todo item created successfully
+<body>
+    <div class="container">
+        <div class="head-container">
+            <div class="massager">
+                <h1>Tasks Progress</h1>
+                <p>Keep up the good work</p>
+                <div id="progress-bar">
+                    <div id="progress">
+
+                    </div>
+                </div>
+            </div>
+            <div id="tasks-status">
+                2 / 3
+            </div>
         </div>
 
-        <div class="item done">
-            Recored Video 
-        </div>
-        
-        <div class="item">
-            Recored Video 
-        </div>
-        
-        <div class="item">
-            Recored Video 
-        </div>
-        
-        <div class="item">
-            Recored Video 
-        </div>
+        <form action="" class="input-form">
+            <input type="text" placeholder="Enter the task">
+            <button type="submit">+</button>
+        </form>
 
+        <ul class="tasks-list">
+            <li>Hello</li>
+        </ul>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
