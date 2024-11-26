@@ -3,34 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasks Reminder</title>
+    <title>Task Reminder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="head-container">
-            <div class="massager">
-                <h1>Tasks Progress</h1>
+        <div class="stats-container">
+            <div class="details">
+                <h1>Remaining Tasks</h1>
                 <p>Keep up the good work</p>
-                <div id="progress-bar">
-                    <div id="progress">
-
-                    </div>
+                <div id="progressBar">
+                    <div id="progress"></div>
                 </div>
             </div>
-            <div id="tasks-status">
-                2 / 3
+            <div class="stats-numbers">
+                <p id="numbers">0 / 0</p>
             </div>
         </div>
 
-        <form action="" class="input-form">
-            <input type="text" placeholder="Enter the task">
-            <button type="submit">+</button>
-        </form>
+      <form>
+        <input type="text" id="taskInput" placeholder="Enter your Task">
+        <button type="submit" id="newTask">+</button>
+      </form>  
 
-        <ul class="tasks-list">
-            <li>Hello</li>
-        </ul>
+      <ul id="task-list">
+
+      </ul>
     </div>
     <script src="app.js"></script>
 </body>
